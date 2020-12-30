@@ -13,8 +13,20 @@ img {
   margin-right: auto;
 }
 
+.pics {
+  width: 100px;
+  height: auto;
+  border: 10px solid white;
+}
+
+.pics:hover {
+  border: 10px solid gray;
+}
+
 div {
   background-color: #BBB;
+  position: relative;
+  display: block;
 }
 
 div:nth-of-type(even) {
